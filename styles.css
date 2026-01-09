@@ -1,1 +1,39 @@
 
+. font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+li{
+  list-style: none;
+}
+.logo{
+  display: flex;
+
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+}
+
+.menu{
+  list-style: none;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+  gap: 30px;
+  display: flex;
+  margin:  0 auto;
+
+}
+
+.menu li a{
+  text-decoration: none;
+  font-weight: 500px;
+}
+
+.btn{
+  background-color: #469165;
+}
