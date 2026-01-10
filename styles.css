@@ -1,6 +1,6 @@
 
-. font-open-sans {
-  font-family: "Open Sans", sans-serif;
+. open-sans-inter {
+  font-family: sans-serif;
   font-optical-sizing: auto;
  
 }
@@ -41,6 +41,17 @@ nav{
 
 .btn{
   background-color: #469165;
+  cursor: pointer;
+  
+}
+
+.menu-btn{
+  color: #faf9f6;
+
+}
+
+.btn:hover{
+  background-color: #2b6e47;
 }
 
 .banner{
@@ -53,6 +64,13 @@ nav{
 .banner-container{
   text-align: center;
   
+}
+
+.banner-text{
+  max-width: 700px;
+  margin: 0 auto 30px;
+  color: #faf9f6;
+
 }
 .banner-container img{
   text-align: center;
@@ -86,6 +104,12 @@ nav{
   gap: 20px;
 }
 
+.btn-2{
+  display: flex;
+  gap: 20px;
+  justify-content:center;
+}
+
 .btn-btn{
   padding: 14px 30px;
   border-radius: 8px;
@@ -101,10 +125,22 @@ nav{
 }
 
 .btn-secondary{
-  background-color: transparent;
+  background-color:transparent;
   color: white;
-  border: 2px solid white;
+  border: 1px solid white;
   padding: 10px 20px;
+  background: none;
+}
+
+.btn-btn:hover{
+  background-color:#469165;
+  background: ;
+}
+
+.btn-secondary:hover{
+   background-color:rgba(255, 255, 255, 0.1); 
+  color: #ffffff;
+  background: none;
 }
 
 
@@ -134,7 +170,7 @@ nav{
     background-color: #F95555;
     width: 50px;
     height: 50px;
-    /* font-size: 60px; */
+    
     border-radius: 50%;
     margin-top: 50px ;
     display: block;
