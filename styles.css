@@ -155,3 +155,36 @@ nav{
     justify-items: center;
 }
 
+.resume{
+    width: 70%;
+    max-width: 1360px;
+    display: flex;
+    margin: 120px auto;
+    gap: 60px;
+}
+.resume-contan {
+    margin: 102px 0;
+}
+.resume-contan .socile{
+    font-size: 25px;
+    margin-bottom: 16px;
+    color: #469165;
+}
+.resume-contan h2{
+    font-size: 50px;
+    margin-bottom: 16px;
+}
+.resume-contan .paragrap-text{
+    margin-bottom: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+.paragrap .paragrap-item{
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    gap: 10px;
+    line-height: 28px;
+    margin: 12px 0; 
+}
+
