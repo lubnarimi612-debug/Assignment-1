@@ -4,6 +4,11 @@
   font-optical-sizing: auto;
  
 }
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
 li{
   list-style: none;
 }
@@ -37,3 +42,68 @@ nav{
 .btn{
   background-color: #469165;
 }
+
+.banner{
+  background-image: url(./images/B13-A01-Knowledge-Vault-main/assets/hero-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+}
+
+.banner-container{
+  text-align: center;
+  
+}
+.banner-container img{
+  text-align: center;
+  margin-right: 10px;
+  
+}
+
+.banner .socile{
+  font-size: 25px;
+  color: #469165;
+  background-color: white;
+  padding: 5px 20px;
+  width: fit-content;
+  margin: 0 auto 20px; 
+  border-radius: 50px;
+}
+
+.banner .socile-title{
+  font-size: 85px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.banner .socile-title span{
+  color: #469165;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-btn{
+  padding: 14px 30px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  margin-right: 10px;
+}
+
+.btn-primary{
+  background-color: #2b6e47;
+  color: white;
+}
+
+.btn-secondary{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 10px 20px;
+}
+
