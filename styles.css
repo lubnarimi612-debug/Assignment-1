@@ -161,20 +161,23 @@ nav{
     display: flex;
     margin: 120px auto;
     gap: 60px;
+    align-items: center;
+    
 }
 .resume-contan {
     margin: 102px 0;
+     box-shadow: 0 6px 50px 0 rgba(112, 33, 33, 0.1);
 }
 .resume-contan .socile{
     font-size: 25px;
     margin-bottom: 16px;
     color: #469165;
 }
-.resume-contan h2{
+.resum-cotan h2{
     font-size: 50px;
     margin-bottom: 16px;
 }
-.resume-contan .paragrap-text{
+.resum-cotan .paragrap-text{
     margin-bottom: 16px;
     line-height: 28px;
     color: #757575;
@@ -199,6 +202,7 @@ nav{
     text-align: center;
     border-radius: 14px;
     margin: 0 auto;
+   box-shadow: 0 6px 50px 0 rgba(112, 33, 33, 0.3);
 }
 .last-box h1 {
     font-size: 40px;
@@ -216,5 +220,52 @@ nav{
     margin-top: 20px;
     font-size: 18px;
     color: #777;
+}
+
+.btn-btn{
+  background-color: #2b6e47;
+  color: #faf9f6;
+}
+
+.footer{
+  background-color:#031B31;
+  padding-top: 100px;
+  padding-bottom: 60px;
+}
+.footer-container{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px ;
+
+}
+.footer-container .footer-img{
+   margin-bottom: 12px; */
+}
+.footer-socile-icons{
+  color: white;
+  font-size: 20px;
+  margin-right: 120px;
+}
+.footer-socile-icons .footer-text{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.footer-socile-icons .footer-icons a{
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.footer-bottom{
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  
+}
+
+.hr{
+  width: 80%;
+  margin: 50px auto 0; 
+  opacity: 0.3;
 }
 
